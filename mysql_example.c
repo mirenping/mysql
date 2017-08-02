@@ -4,6 +4,7 @@
 
 int main()
 {
+   //test file		
     int i,j=0;
     MYSQL_ROW row;
     //初始化mysql句柄
@@ -48,6 +49,5 @@ int main()
     //关闭mysql连接
     mysql_close(mysql);
     return 0;
-
 
 }
